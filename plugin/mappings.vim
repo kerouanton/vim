@@ -119,7 +119,7 @@ vnoremap <C-r> :<C-u>call <SID>VSetSearch()<CR>:,$s/<C-R>=@/<CR>//gc<left><left>
 
 
 " remove trailing whitespace
-nmap <leader>w :%s/\s\+$//g<CR>
+nmap <leader>w :%s/\s\+$//e<CR>
 
 
 

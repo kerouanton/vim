@@ -30,11 +30,11 @@ highlight DiffText ctermbg=236
 
 " Formatting and indentation {{{
 " Use spaces instead of tabs
-set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-set ts=2 sw=2 expandtab
-set smarttab
-filetype indent plugin on
-set autoindent
+" set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+" set ts=2 sw=2 expandtab
+" set smarttab
+" filetype indent plugin on
+" set autoindent
 " }}}
 
 " Editing and text display {{{
@@ -67,7 +67,7 @@ set formatoptions+=j " see :h fo-table
 " }}}
 
 " Searching {{{
-set hlsearch
+" set hlsearch
 set incsearch
 set ignorecase
 set smartcase
