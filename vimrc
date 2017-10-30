@@ -6,7 +6,6 @@ filetype plugin indent on
 " set number
 syntax enable
 
-" colorscheme solarized
 set background=dark
 " set background=light
 " set laststatus=2 " always show the statusline
@@ -21,11 +20,6 @@ highlight DiffDelete ctermbg=233
 highlight DiffChange ctermbg=233
 " Modified words are a slightly lighter grey
 highlight DiffText ctermbg=236
-" }}}
-
-" Buffer Options {{{
-" set hidden   " Buffers can be hidden and edited
-" set autoread " Automatically load changes to open files
 " }}}
 
 " Formatting and indentation {{{
@@ -119,11 +113,17 @@ set iskeyword+=-
 
 " From the talk https://www.youtube.com/watch?v=XA2WjJbmmoM
 
-" Recursivly add all files and folders to the path
+" Recursively add all files and folders to the path
 set path+=**
 
 " Display all matching files when we tab complete
-set wildmenu
+" Wildmenu
+set wildignore+=*.gif,*.ico,*.jpg,*.png
+set wildignore+=.DS_Store,.git,.hg,.svn
+set wildignore+=*~,*.swp,*.tmp
+set wildmode=longest,list
+" Allows `:find user` to auto resolve to user.rb
+set suffixesadd=.rb
 
 " Netrw config
 let g:netrw_banner=0 " disable annoying banner
