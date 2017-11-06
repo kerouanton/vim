@@ -11,6 +11,9 @@ nnoremap <leader>u a<cr><esc>:.-1read !uuidgen<cr>kgJJx
 " Convert an old ruby hash ( :test => 'testing' ) to new ( test: 'testing' )
 nnoremap <leader>: f=xxxhi:<esc>F:x
 
+" Convert a key to string syntax ( test: 'test' ) to new ( 'test' => 'test' )
+" nnoremap <leader>' ysiW'Ehx<esc>a =><esc>
+
 
 
 " No dependancy fuzzy(ish) match.
@@ -94,9 +97,10 @@ endif
 
 
 " grep
-command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow 20|redraw!
+" command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow 20|redraw!
+" command! -nargs=+ NewGrep execute 'silent grep! <args>' | copen 42
 " bind K to grep word under cursor
-nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+nnoremap K :grep! "\b<C-R><C-W>\b" -r .<CR>:cw30<CR>
 
 
 

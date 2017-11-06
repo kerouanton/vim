@@ -67,13 +67,13 @@ set ignorecase
 set smartcase
 " ag is much faster than grep, and reads .gitignore
 " https://github.com/ggreer/the_silver_searcher
-if executable('ag')
-  set grepprg=ag\ --nogroup\ --nocolor\ --column\ $*
-  set grepformat=%f:%l:%c:%m"
-" If this is a git directory, use git's grep
-elseif !empty(system("git rev-parse --show-toplevel"))
-  set grepprg=git\ grep\ --line-number\ $*
-endif
+" if executable('ag')
+"   set grepprg=ag\ --nogroup\ --nocolor\ --column\ $*
+"   set grepformat=%f:%l:%c:%m"
+" " If this is a git directory, use git's grep
+" elseif !empty(system("git rev-parse --show-toplevel"))
+"   set grepprg=git\ grep\ --line-number\ $*
+" endif
 " }}}
 
 " Autocomplete {{{
@@ -121,7 +121,7 @@ set path+=**
 set wildignore+=*.gif,*.ico,*.jpg,*.png
 set wildignore+=.DS_Store,.git,.hg,.svn
 set wildignore+=*~,*.swp,*.tmp
-set wildmode=longest,list
+set wildmode=longest,list,full
 " Allows `:find user` to auto resolve to user.rb
 set suffixesadd=.rb
 
