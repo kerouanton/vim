@@ -74,10 +74,12 @@ set smartcase
 " elseif !empty(system("git rev-parse --show-toplevel"))
 "   set grepprg=git\ grep\ --line-number\ $*
 " endif
+
+set grepprg=grep\ -nI\ --exclude-dir={.git,log,tmp,coverage,ckeditor}\ $*\ /dev/null
 " }}}
 
 " Autocomplete {{{
-" set complete=.,b,u,]
+set complete=.,w,b,u,t " see :help cpt
 " set wildmode=longest,list:longest
 " set completeopt=menu,preview
 " }}}
@@ -121,6 +123,7 @@ set path+=**
 set wildignore+=*.gif,*.ico,*.jpg,*.png
 set wildignore+=.DS_Store,.git,.hg,.svn
 set wildignore+=*~,*.swp,*.tmp
+set wildignore+=*.min.js
 set wildmode=longest,list,full
 " Allows `:find user` to auto resolve to user.rb
 set suffixesadd=.rb

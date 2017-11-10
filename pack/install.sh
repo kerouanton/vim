@@ -64,7 +64,7 @@ wait
 
 (
 set_group ruby
-# package https://github.com/tpope/vim-rails.git &
+package https://github.com/tpope/vim-rails.git &
 package https://github.com/tpope/vim-rake.git &
 package https://github.com/tpope/vim-bundler.git &
 package https://github.com/tpope/vim-endwise.git &
