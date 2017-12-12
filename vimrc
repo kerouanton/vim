@@ -25,9 +25,7 @@ highlight DiffText ctermbg=236
 " Formatting and indentation {{{
 " Use spaces instead of tabs
 " set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
-" set ts=2 sw=2 expandtab
 " set smarttab
-" filetype indent plugin on
 " set autoindent
 " }}}
 
@@ -85,10 +83,8 @@ set complete=.,w,b,u,t " see :help cpt
 " }}}
 
 " Swap files {{{
-set backupdir=~/.vim/swp-files
-set directory=~/.vim/swp-files
+set directory=~/.vim/.swp//
 set shortmess+=A
-set backupskip=/tmp/*,/private/tmp/*
 " }}}
 
 " TOhtml settings {{{
