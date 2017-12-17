@@ -97,7 +97,7 @@ let g:html_prevent_copy = "n"
 " Undo {{{
 set undolevels=10000
 " if has("persistent_undo")
-set undodir=~/.vim/undo " Allow undoes to persist even after a file is closed
+set undodir=~/.vim/.undo " Allow undoes to persist even after a file is closed
 set undofile
 " endif
 " }}}
