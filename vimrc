@@ -134,5 +134,4 @@ set mouse=a
 " mouse features manually.
 set ttymouse=xterm2
 
-set clipboard=unnamedplus
-" set clipboard=unnamed
+" set clipboard=unnamedplus
