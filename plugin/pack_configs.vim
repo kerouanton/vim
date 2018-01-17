@@ -1,13 +1,20 @@
 " w0rp/ale
 " ========
 let g:ale_linters = {
-      \  'ruby': ['ruby'],
-      \}
+\  'ruby': ['ruby'],
+\  'javascript': ['eslint'],
+\}
 " Dont lint while I type, seriously, I'm not done yet.
 let g:ale_lint_on_text_changed = 'never'
 
+" After this is configured, :ALEFix will try and fix your JS code with ESLint.
+let g:ale_fixers = {
+\   'javascript': ['eslint'],
+\}
 
-
+" Set this setting in vimrc if you want to fix files automatically on save.
+" This is off by default.
+let g:ale_fix_on_save = 1
 
 
 
