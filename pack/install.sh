@@ -97,7 +97,7 @@ package https://github.com/tmux-plugins/vim-tmux.git &
 package https://github.com/Matt-Deacalion/vim-systemd-syntax.git &
 # package https://github.com/salomvary/vim-eslint-compiler.git &
 package https://github.com/hashivim/vim-terraform.git &
-package https://github.com/bumaociyuan/vim-swift.git &
+package https://github.com/keith/swift.vim.git &
 wait
 ) &
 
