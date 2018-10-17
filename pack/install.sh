@@ -57,7 +57,7 @@ package https://github.com/tpope/vim-repeat.git &
 package https://github.com/tpope/vim-commentary.git &
 package https://github.com/tpope/vim-projectionist.git &
 # Automatically adjusts 'shiftwidth' and 'expandtab' heuristically based on the current file
-package https://github.com/tpope/vim-sleuth.git &
+# package https://github.com/tpope/vim-sleuth.git &
 # package https://github.com/tpope/vim-vinegar.git &
 wait
 ) &
@@ -108,7 +108,7 @@ wait
 
 old_plugs=$(find ./*/*/*/.git -prune -mmin +5 -print | sed "s/\/.git//")
 if [ -n "$old_plugs" ]; then
-  echo "Removing old plugins:"
+  echo "Removing old plugins: $old_plugs"
   echo $old_plugs | xargs rm -rf
 fi
 

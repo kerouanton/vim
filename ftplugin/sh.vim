@@ -1,3 +1,4 @@
+setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set makeprg=shellcheck\ -f\ gcc\ %
 " au BufWritePost * :silent make | redraw!
 
