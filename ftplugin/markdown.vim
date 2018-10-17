@@ -1,4 +1,4 @@
-setlocal tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+setlocal tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 setlocal spell
 
 " This turns off physical line wrapping (ie: automatic insertion of newlines)
