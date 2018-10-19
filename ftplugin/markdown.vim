@@ -5,3 +5,4 @@ setlocal spell
 " setlocal textwidth=0 wrapmargin=0
 
 " set linebreak wrap breakindent
+set textwidth=80
