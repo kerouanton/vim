@@ -1,3 +1,9 @@
+" dhruvasagar/vim-table-mode
+" ==========================
+
+let g:table_mode_corner='|'
+
+
 " w0rp/ale
 " ========
 let g:ale_linters = {

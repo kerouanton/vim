@@ -39,6 +39,7 @@ function package () {
 (
 set_group staging
 package https://github.com/w0rp/ale.git &
+package https://github.com/dhruvasagar/vim-table-mode.git &
 wait
 ) &
 
