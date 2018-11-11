@@ -40,7 +40,7 @@ function package () {
 set_group staging
 package https://github.com/w0rp/ale.git &
 package https://github.com/dhruvasagar/vim-table-mode.git &
-package https://github.com/junegunn/goyo.vim.git &
+package https://github.com/chrisbra/csv.vim &
 wait
 ) &
 

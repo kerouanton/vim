@@ -6,3 +6,5 @@ setlocal spell
 set linebreak breakindent
 
 set textwidth=80
+
+setlocal includeexpr=substitute(v:fname,'^/','','')
