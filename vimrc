@@ -10,6 +10,9 @@ set background=dark
 " set background=light
 " set laststatus=2 " always show the statusline
 
+" Don't beep at me, I can see it isn't working...
+set visualbell t_vb=
+
 " Set some sensible diff colours.
 " Seriously, the defaults are not easy to comprehend.
 " Additions are are dark green
