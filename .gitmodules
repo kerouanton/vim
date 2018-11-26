@@ -1,0 +1,75 @@
+[submodule "pack/staging/start/csv.vim"]
+	path = pack/staging/start/csv.vim
+	url = https://github.com/chrisbra/csv.vim
+[submodule "pack/syntax/start/applescript.vim"]
+	path = pack/syntax/start/applescript.vim
+	url = https://github.com/vim-scripts/applescript.vim.git
+[submodule "pack/tpope/start/vim-surround"]
+	path = pack/tpope/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/tpope/start/vim-rhubarb"]
+	path = pack/tpope/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "pack/tpope/start/vim-repeat"]
+	path = pack/tpope/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "pack/syntax/start/vim-systemd-syntax"]
+	path = pack/syntax/start/vim-systemd-syntax
+	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
+[submodule "pack/tpope/start/vim-commentary"]
+	path = pack/tpope/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/snippets/start/vim-addon-mw-utils"]
+	path = pack/snippets/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "pack/tmux/start/vim-tmux-navigator"]
+	path = pack/tmux/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "pack/ruby/start/vim-bundler"]
+	path = pack/ruby/start/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
+[submodule "pack/ruby/start/vim-endwise"]
+	path = pack/ruby/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "pack/syntax/start/vim-tmux"]
+	path = pack/syntax/start/vim-tmux
+	url = https://github.com/tmux-plugins/vim-tmux.git
+[submodule "pack/ruby/start/vim-rake"]
+	path = pack/ruby/start/vim-rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "pack/tpope/start/vim-ragtag"]
+	path = pack/tpope/start/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "pack/tpope/start/vim-projectionist"]
+	path = pack/tpope/start/vim-projectionist
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "pack/syntax/start/vim-terraform"]
+	path = pack/syntax/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "pack/syntax/start/vim-coffee-script"]
+	path = pack/syntax/start/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "pack/syntax/start/swift.vim"]
+	path = pack/syntax/start/swift.vim
+	url = https://github.com/keith/swift.vim.git
+[submodule "pack/syntax/start/vim-css-color"]
+	path = pack/syntax/start/vim-css-color
+	url = https://github.com/ap/vim-css-color.git
+[submodule "pack/snippets/start/tlib_vim"]
+	path = pack/snippets/start/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "pack/snippets/start/vim-snipmate"]
+	path = pack/snippets/start/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "pack/staging/start/vim-table-mode"]
+	path = pack/staging/start/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule "pack/tpope/start/vim-fugitive"]
+	path = pack/tpope/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/ruby/start/vim-rails"]
+	path = pack/ruby/start/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "pack/staging/start/ale"]
+	path = pack/staging/start/ale
+	url = https://github.com/w0rp/ale.git
