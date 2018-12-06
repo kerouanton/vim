@@ -76,3 +76,6 @@
 [submodule "pack/tpope/start/vim-unimpaired"]
 	path = pack/tpope/start/vim-unimpaired
 	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "pack/tpope/start/vim-abolish"]
+	path = pack/tpope/start/vim-abolish
+	url = git@github.com:tpope/vim-abolish.git
