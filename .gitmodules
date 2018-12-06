@@ -73,3 +73,6 @@
 [submodule "pack/staging/start/ale"]
 	path = pack/staging/start/ale
 	url = https://github.com/w0rp/ale.git
+[submodule "pack/tpope/start/vim-unimpaired"]
+	path = pack/tpope/start/vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
