@@ -61,7 +61,6 @@ set formatoptions+=j " see :h fo-table
 " set cursorline
 " Use jk to exit insert mode. No esc key on touch bar or ipad keyboard.
 inoremap jk <esc>
-inoremap <esc> <nop>
 " }}}
 
 " Searching {{{
