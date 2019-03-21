@@ -115,9 +115,8 @@ set iskeyword+=-
 
 
 " From the talk https://www.youtube.com/watch?v=XA2WjJbmmoM
-
 " Recursively add all files and folders to the path
-set path+=**
+" set path+=**
 
 " Display all matching files when we tab complete
 " Wildmenu
@@ -127,7 +126,7 @@ set wildignore+=*~,*.swp,*.tmp
 set wildignore+=*.min.js
 set wildmode=longest,list,full
 " Allows `:find user` to auto resolve to user.rb
-set suffixesadd=.rb
+" set suffixesadd=.rb
 
 " Netrw config
 let g:netrw_banner=0 " disable annoying banner
