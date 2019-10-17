@@ -7,4 +7,9 @@ set linebreak breakindent
 
 set textwidth=80
 
+" Conceal even cursor is on that line in normal mode.
+set concealcursor=n
+" Conceal characters unless there is a defined replacement.
+set conceallevel=2
+
 setlocal includeexpr=substitute(v:fname,'^/','','')
