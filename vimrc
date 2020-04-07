@@ -17,12 +17,12 @@ set visualbell t_vb=
 " Seriously, the defaults are not easy to comprehend.
 " Additions are are dark green
 highlight DiffAdd ctermbg=22
-" Deleted lines are dark grey
-highlight DiffDelete ctermbg=233
-" Modified lines are dark grey
-highlight DiffChange ctermbg=233
-" Modified words are a slightly lighter grey
-highlight DiffText ctermbg=236
+" Deleted lines are dark red
+highlight DiffDelete ctermbg=52
+" Modified lines are dark blue
+highlight DiffChange ctermbg=18
+" Modified words are a lighter blue
+highlight DiffText ctermbg=27
 " }}}
 
 " Formatting and indentation {{{
