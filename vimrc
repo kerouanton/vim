@@ -1,3 +1,5 @@
+" Hello world
+"
 " vim:fdm=marker
 set nocompatible
 filetype plugin indent on
@@ -7,7 +9,7 @@ filetype plugin indent on
 syntax enable
 
 " set background=dark
-set background=light
+set background=dark
 " set laststatus=2 " always show the statusline
 
 " Don't beep at me, I can see it isn't working...
